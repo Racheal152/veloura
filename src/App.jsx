@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='text-center text-blue-500 lg:bg-slate-500'>
+      <div className='text-center font-primary text-blue-500 lg:bg-slate-500'>
         My Mental Wellness Website
       </div>
     </>
