@@ -1,4 +1,4 @@
-This is # Veloura - a mental wellness website
+This is Veloura - a mental wellness website
 Veloura- feels like velvet + aura, soft and rich
 Where softness meets strength.
 
