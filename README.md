@@ -1,8 +1,5 @@
-# React + Vite
+This is # Veloura - a mental wellness website
+Veloura- feels like velvet + aura, soft and rich
+Where softness meets strength.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Veloura is a serene mental wellness space designed to nurture your mind with gentle care and empowering support. Inspired by the richness of velvet and the subtle energy of an aura, Veloura invites you to experience calm, comfort, and inner resilience. Here, every journey toward mental clarity and emotional balance is met with compassion and grace—because your well-being deserves nothing less than softness wrapped in strength.
