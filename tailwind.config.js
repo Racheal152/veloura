@@ -16,7 +16,7 @@ export default {
       colors: {
         'heroBg' : "#1E142E",
         'para': 'rgba(255, 255, 255, 0.85)',
-        'primary': "#B16BA6"  
+        'primary': "#FF69B4"  
       }
     },
   },
