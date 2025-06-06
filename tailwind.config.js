@@ -2,10 +2,13 @@
 export default {
   content: [
     "./index.html",
-    "./src//*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'working-img' : "url('/work-proceess.webp')"
+      },
       fontFamily: {
         'primary' : ["Poppins", "sans-serif"],
         'secondary' : ["Syne", "sans-serif"]
@@ -19,4 +22,3 @@ export default {
   },
   plugins: [],
 }
-
