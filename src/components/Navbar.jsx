@@ -49,34 +49,63 @@ const Navbar = () => {
           <motion.a 
           whileHover={{scale: 1.1}}
           whileTap={{scale: 0.9}}
-          href='#home'
           onClick={(e) => {
             e.preventDefault();
             handleCloseMenu();
             handleScrollTo('home')
           }}
+          href='#home'
+
           className={`text-white ${activeSection === 'home' ? 'isActive' : ''}`}
           >Home</motion.a>
         </li>
         <li>
-          <a href='#services'
+          <motion.a href='#services'
+          whileHover={{scale: 1.1}}
+          whileTap={{scale: 0.9}}
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo('services')
+          }}
           className={`text-white ${activeSection === 'services' ? 'isActive' : ''}`}
-          >Services</a>
+          >Services</motion.a>
         </li>
         <li>
-          <a href='#about'
+          <motion.a href='#about'
+          whileHover={{scale: 1.1}}
+          whileTap={{scale: 0.9}}
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo('about')
+          }}
           className={`text-white ${activeSection === 'about' ? 'isActive' : ''}`}
-          >About Us</a>
+          >About Us</motion.a>
         </li>
         <li>
-          <a href='#pricing'
+          <motion.a href='#pricing'
+          whileHover={{scale: 1.1}}
+          whileTap={{scale: 0.9}}
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo('pricing')
+          }}
           className={`text-white ${activeSection === 'pricing' ? 'isActive' : ''}`}
-          >Pricing</a>
+          >Pricing</motion.a>
         </li>
         <li>
-          <a href='#testimonial'
+          <motion.a href='#testimonial'
+          whileHover={{scale: 1.1}}
+          whileTap={{scale: 0.9}}
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo('testimonial')
+          }}
           className={`text-white ${activeSection === 'testimonial' ? 'isActive' : ''}`}
-          >Testimonial</a>
+          >Testimonial</motion.a>
         </li>
       </ul>
     )
