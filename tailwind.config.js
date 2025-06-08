@@ -14,9 +14,9 @@ export default {
         'secondary' : ["Syne", "sans-serif"]
       },
       colors: {
-        'heroBg' : "#1E142E",
+        'heroBg' : "#0e1122",
         'para': 'rgba(255, 255, 255, 0.85)',
-        'primary': "#FF69B4"  
+        'primary': "#B76E79"  
       }
     },
   },
