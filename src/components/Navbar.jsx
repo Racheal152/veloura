@@ -44,7 +44,7 @@ const Navbar = () => {
     }
 
     const navLinks = (
-      <ul className='font-medium flex flex-col md:flex-row lg:space-x-8 sm:space-x-4 spave-y-2 md:space-y-0 p-4 md:p-0'>
+      <ul className='font-medium flex flex-col md:flex-row lg:space-x-8 sm:space-x-4 space-y-2 md:space-y-0 p-4 md:p-0'>
         <li>
           <motion.a 
           whileHover={{scale: 1.1}}
