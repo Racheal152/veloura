@@ -53,7 +53,7 @@ const Pricing = () => {
        variants={fadeIn ('right', 0.2)} 
        initial="hidden"
        whileInView={"show"}
-       viewport={{once: false, amount: 0.7}}
+       viewport={{once: false, amount: 0.2}}
       className='container mx-auto px-8'>
         <div className='text-center mb-12'>
           <h2 className='text-4xl font-bold font-secondary mb-3'>Perfect for Small & Large Brands</h2>

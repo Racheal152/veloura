@@ -42,7 +42,7 @@ const Services = () => {
               variants={fadeIn ('up', 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{once: false, amount: 0.7}}
+              viewport={{once: false, amount: 0.2}}
               className='flex flex-col md:flex-row gap-8 mt-8'>
               <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
                 <h3 className='text-3xl font-semibold text-primary mb-4'>Couple Counselling</h3>
@@ -65,7 +65,7 @@ const Services = () => {
                 variants={fadeIn ('up', 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once: false, amount: 0.7}}
+                viewport={{once: false, amount: 0.2}}
               className='flex flex-col md:flex-row gap-8 mt-8'>
               <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
                 <h3 className='text-3xl font-semibold text-primary mb-4'>Parenting Skills</h3>
@@ -88,7 +88,7 @@ const Services = () => {
                variants={fadeIn ('up', 0.2)}
                initial="hidden"
                whileInView={"show"}
-               viewport={{once: false, amount: 0.7}}
+               viewport={{once: false, amount: 0.2}}
               className='flex flex-col md:flex-row gap-8 mt-8'>
               <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
                 <h3 className='text-3xl font-semibold text-primary mb-4'>Feeling Stuck</h3>
@@ -111,7 +111,7 @@ const Services = () => {
                variants={fadeIn ('up', 0.2)}
                initial="hidden"
                whileInView={"show"}
-               viewport={{once: false, amount: 0.7}}
+               viewport={{once: false, amount: 0.2}}
               className='flex flex-col md:flex-row gap-8 mt-8'>
               <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
                 <h3 className='text-3xl font-semibold text-primary mb-4'>Self-Confidence</h3>

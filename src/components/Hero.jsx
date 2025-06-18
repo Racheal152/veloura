@@ -13,7 +13,7 @@ const Hero = () => {
         variants={fadeIn ('down', 0.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{once: false, amount: 0.7}}
+        viewport={{once: false, amount: 0.2}}
         className='md:w-1/2'>
           <h1 className='text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug'>Start Your Journey to Mental Wellness</h1>
           <p className='text-lg mb-12 md:pr-8'>We lower our stress levels, we get to know our pain,we connect better, we improve our focus, and we're kinder to ourselves. Let us walk you through the basics in our new mindful guide on how to meditate.</p>
@@ -30,7 +30,7 @@ const Hero = () => {
         variants={fadeIn ('left', 0.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{once: false, amount: 0.7}}
+        viewport={{once: false, amount: 0.2}}
         className='md:w-1/2 h-full'>
           <img src={heroImg} alt="hero image" className='w-full object-cover' />
         </motion.div>

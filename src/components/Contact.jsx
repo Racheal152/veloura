@@ -46,7 +46,7 @@ const Contact = () => {
            variants={fadeIn ('right', 0.2)}
            initial="hidden"
            whileInView={"show"}
-           viewport={{once: false, amount: 0.7}}
+           viewport={{once: false, amount: 0.2}}
           className='space-y-8'> 
             <h2 className='text-4xl font-bold font-secondary mb-4 text-white'>Make an Appointment</h2>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 text-white'>
@@ -98,7 +98,7 @@ const Contact = () => {
            variants={fadeIn ('up', 0.2)}
            initial="hidden"
            whileInView={"show"}
-           viewport={{once: false, amount: 0.7}}
+           viewport={{once: false, amount: 0.2}}
           className='space-y-8 p-8 bg-white shadow-xl rounded-md'>
             <h3 className='text-2xl font-bold mb-4'>Book Appointment</h3>
             <form onSubmit={handleSubmit} className='space-y-8'>

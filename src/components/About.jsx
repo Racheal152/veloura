@@ -21,7 +21,7 @@ const About = () => {
        variants={fadeIn ('down', 0.2)}
        initial="hidden"
        whileInView={"show"}
-       viewport={{once: false, amount: 0.7}}
+       viewport={{once: false, amount: 0.2}}
       className='container mx-auto'>
         <div className='py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8'>
           {/* left side */}
