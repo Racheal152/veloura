@@ -3,10 +3,10 @@
   <circle cx="30" cy="30" r="25" fill="#B76E79" />
 
   <!-- Hibiscus flower emoji as text -->
-  <text x="18" y="38" font-size="28" font-family="Segoe UI Emoji">🌺</text>
+  <text x="10" y="40" font-size="28" font-family="Segoe UI Emoji">🌺</text>
 
   <!-- Veloura brand text -->
-  <text x="60" y="40" font-family="Syne, sans serif" font-size="24" fill="#4B2E2E" letter-spacing="1">
+  <text x="60" y="40" font-family="Syne, sans-serif" font-size="24" fill="#ffffff" letter-spacing="0.5">
     Veloura
   </text>
 </svg>
