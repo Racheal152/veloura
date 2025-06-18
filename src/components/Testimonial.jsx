@@ -4,6 +4,8 @@ import review1 from '../assets/review1.webp'
 import review2 from '../assets/review2.webp'
 import service1 from '../assets/service1.webp'
 import service2 from '../assets/service2.webp'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../utils/animationVariants';
 
 const  testimonials =[
     {
@@ -36,7 +38,12 @@ const  testimonials =[
 const Testimonial = () => {
   return (
     <div id='testimonial' className=' bg-[#fcf7fa] p-12'>
-      <div className='container mx-auto pb-20'>
+      <motion.div 
+       variants={fadeIn ('up', 0.2)}
+       initial="hidden"
+       whileInView={"show"}
+       viewport={{once: false, amount: 0.7}}
+      className='container mx-auto pb-20'>
         <div className='text-center mb-12'>
           <h2 className='text-4xl font-bold font-secondary mb-3'>What Our Clients Say</h2>
           <p className='text-lg mb-12 md:w-1/2 mx-auto'>Real stories from individuals and families who’ve experienced meaningful change through Veloura. Here’s what they had to share:</p>
@@ -65,7 +72,7 @@ const Testimonial = () => {
             ))
           }
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
