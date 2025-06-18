@@ -36,7 +36,7 @@ const  testimonials =[
 const Testimonial = () => {
   return (
     <div id='testimonial' className=' bg-[#fcf7fa] p-12'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto pb-20'>
         <div className='text-center mb-12'>
           <h2 className='text-4xl font-bold font-secondary mb-3'>What Our Clients Say</h2>
           <p className='text-lg mb-12 md:w-1/2 mx-auto'>Real stories from individuals and families who’ve experienced meaningful change through Veloura. Here’s what they had to share:</p>
