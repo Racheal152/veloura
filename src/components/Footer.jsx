@@ -41,7 +41,7 @@ const Footer = () => {
             <div className='space-y-6'>
                 <h3 className='text-xl font-semibold mb-4'>Support</h3>
                 <ul className='space-y-3'>
-                    <li><a href='#' className='hover:underline text-gray-700'>FAQs</a> </li>
+                    <li><a href='#faqs' className='hover:underline text-gray-700'>FAQs</a> </li>
                     <li><a href='#' className='hover:underline text-gray-700'>Terms of Services</a></li>
                     <li> <a href='#' className='hover:underline text-gray-700'>Pricay Policies</a></li>
                     <li><a href='#contact' className='hover:underline text-gray-700'>Support Center</a></li>

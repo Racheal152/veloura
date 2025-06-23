@@ -1,4 +1,3 @@
-
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -9,6 +8,7 @@ import Pricing from './components/Pricing'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
 import WorkingStep from './components/WorkingStep'
+import FAQs from './Pages/FAQs'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Testimonial />
         <Contact />
         <Footer />
+        <FAQs/>
       </div>
     
   )
