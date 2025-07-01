@@ -1,6 +1,7 @@
 import React from 'react'
 import footerLogo from '../assets/footer-logo.svg'
 import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='py-12 bg-gray-100 px-8'>
@@ -31,7 +32,7 @@ const Footer = () => {
             <div className='space-y-6'>
                 <h3 className='text-xl font-semibold mb-4'>Quick Links</h3>
                 <ul className='space-y-3'>
-                    <li><a href='#home' className='hover:underline text-gray-700'>Home</a> </li>
+                    <li><a href='#home' className='hover:underline text-gray-700'>Home</a></li>
                     <li><a href='#about' className='hover:underline text-gray-700'>About Us</a></li>
                     <li> <a href='#services' className='hover:underline text-gray-700'>Services</a></li>
                     <li><a href='#contact' className='hover:underline text-gray-700'>Contact Us</a></li>
@@ -41,8 +42,8 @@ const Footer = () => {
             <div className='space-y-6'>
                 <h3 className='text-xl font-semibold mb-4'>Support</h3>
                 <ul className='space-y-3'>
-                    <li><a href='#faqs' className='hover:underline text-gray-700'>FAQs</a> </li>
-                    <li><a href='#' className='hover:underline text-gray-700'>Terms of Services</a></li>
+                    <li><Link to="/FAQs" className='hover:underline text-gray-700'>FAQs</Link> </li>
+                    <li><Link to="/terms" className='hover:underline text-gray-700'>Terms of Services</Link> </li>
                     <li> <a href='#' className='hover:underline text-gray-700'>Pricay Policies</a></li>
                     <li><a href='#contact' className='hover:underline text-gray-700'>Support Center</a></li>
                 </ul>

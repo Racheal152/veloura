@@ -1,11 +1,18 @@
 import { FaClipboardCheck, FaLaptopHouse, FaUserShield } from "react-icons/fa";
 import { FaClock, FaLightbulb, FaPersonCircleQuestion } from "react-icons/fa6";
-
+import { IoArrowForwardCircleSharp } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/animationVariants";
 export const FAQs = () => {
   return (
     <div id='faqs' className='bg-heroBg flex items-center justify-center py-28 px-8'>
       <div className="container mx-auto">
-        <div className=" mx-auto items-center md:gap-12 gap-8">
+        <motion.div 
+        variants={fadeIn ('down', 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.2}}
+        className=" mx-auto items-center md:gap-12 gap-8">
           
           <div className="space-y-8">
              <h2 className='text-4xl font-bold font-secondary mb-4 text-white'>Frequently Asked Questions</h2>
@@ -69,9 +76,18 @@ export const FAQs = () => {
                   <p>We offer a brief consultation to help guide you to the support that best fits your needs.</p>
                 </div>
               </div>
+
+              <div className='md:w-1/2 w-full'>
+              <button className='bg-primary text-white py-3.5 px-6 font-medium rounded hover:bg-primary/90'>
+              <a href='/' className='flex gap-1 items-center '>
+                <span>Go back to Homepage</span>
+                <IoArrowForwardCircleSharp />
+              </a>
+              </button>
+              </div>
           </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
